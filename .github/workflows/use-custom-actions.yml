@@ -53,5 +53,5 @@ jobs:
         uses: ./.github/actions/issue-maker-docker
         with:
           repoToken: ${{secrets.GITHUB_TOKEN}}
-          catFact: ${{steps.cat.outputs.fact}}
-          issueTitle: "A cat fact for you from ${{ github.repository_owner }}"
+          catFact: ${{steps.cat.outputs.fact}}          
+          issue-title: "A joke for you from custom actions workflow" 
